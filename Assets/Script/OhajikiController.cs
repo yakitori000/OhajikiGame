@@ -16,7 +16,7 @@ public class OhajikiController : MonoBehaviour
         //「MainOhajiki」のリジットボディを取得
         mainRigid = mainOhajiki.GetComponent<Rigidbody>();
         //「MainOhajiki」に力を加える
-        mainRigid.AddForce(new Vector3(50f, 0, 0));
+        mainRigid.AddForce(new Vector3(50f, 0f, 0f));
     }
 
     // Update is called once per frame
